@@ -2,7 +2,7 @@ def check_correctness():
     correct = False
     while correct == False:
         quarter = int(input('Введите номер четверти, в которой расположена точка: '))
-        if quarter > 0 and quarter <= 4:
+        if 0 < quarter <= 4:
             correct = True
         else:
             print('Некорректный номер четверти!')
